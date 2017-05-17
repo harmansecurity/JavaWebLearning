@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" 
+	xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CookieDemo1</servlet-name>
+    <servlet-class>com.ecnu.cookie.CookieDemo1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CookieDemo2</servlet-name>
+    <servlet-class>com.ecnu.cookie.CookieDemo2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CookieDemo3</servlet-name>
+    <servlet-class>com.ecnu.cookie.CookieDemo3</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CookieDemo4</servlet-name>
+    <servlet-class>com.ecnu.cookie.CookieDemo4</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SessionDemo1</servlet-name>
+    <servlet-class>com.ecnu.session.SessionDemo1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SessionDemo2</servlet-name>
+    <servlet-class>com.ecnu.session.SessionDemo2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WelcomeServlet</servlet-name>
+    <servlet-class>com.ecnu.session.WelcomeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ListBookServlet</servlet-name>
+    <servlet-class>com.ecnu.shopping.ListBookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BuyServlet</servlet-name>
+    <servlet-class>com.ecnu.shopping.BuyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ListCartServlet</servlet-name>
+    <servlet-class>com.ecnu.shopping.ListCartServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.ecnu.login.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>com.ecnu.login.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DoFormServlet</servlet-name>
+    <servlet-class>com.ecnu.form.DoFormServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FormServlet</servlet-name>
+    <servlet-class>com.ecnu.form.FormServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ImageServlet</servlet-name>
+    <servlet-class>com.ecnu.checkcode.ImageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.ecnu.checkcode.RegisterServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>CookieDemo1</servlet-name>
+    <url-pattern>/servlet/CookieDemo1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CookieDemo2</servlet-name>
+    <url-pattern>/servlet/CookieDemo2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CookieDemo3</servlet-name>
+    <url-pattern>/servlet/CookieDemo3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CookieDemo4</servlet-name>
+    <url-pattern>/servlet/CookieDemo4</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SessionDemo1</servlet-name>
+    <url-pattern>/servlet/SessionDemo1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SessionDemo2</servlet-name>
+    <url-pattern>/servlet/SessionDemo2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WelcomeServlet</servlet-name>
+    <url-pattern>/servlet/WelcomeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ListBookServlet</servlet-name>
+    <url-pattern>/servlet/ListBookServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BuyServlet</servlet-name>
+    <url-pattern>/servlet/BuyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ListCartServlet</servlet-name>
+    <url-pattern>/servlet/ListCartServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/servlet/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DoFormServlet</servlet-name>
+    <url-pattern>/servlet/DoFormServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FormServlet</servlet-name>
+    <url-pattern>/servlet/FormServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ImageServlet</servlet-name>
+    <url-pattern>/servlet/ImageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/servlet/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

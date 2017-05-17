@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>form.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+  </head>
+  
+  <body>
+    <form action="/MyDay6/servlet/RequestDemo3" method="post">
+    	用户名：<input type="text" name="username"/><br/>
+    	密码：<input type="password" name="password"><br/>
+    	性别：<input type="radio" name="gender" value="male"/>男
+    		 <input type="radio" name="gender" value="female"/>女<br/>
+                    所在地：
+             <select name="city">
+             	<option value="beijing">北京</option>
+             	<option value="shanghai">上海</option>
+             	<option value="tianjin">天津</option>
+             	<option value="nanjin">南京</option>
+             	<option value="suzhou">苏州</option>
+             </select><br/>
+                    爱好：
+             <input type="checkbox" name="likes" value="sing">唱歌
+             <input type="checkbox" name="likes" value="dance">跳舞
+             <input type="checkbox" name="likes" value="basketball">篮球
+             <input type="checkbox" name="likes" value="football">足球
+             <br/>
+       	简介：<textarea rows="6" cols="60" name="description"></textarea><br/>
+       	大头照：<input type="file" name="image"/><br/>
+       	<input type="hidden" name="id" value="12345"/>
+    	<input type="submit" value="提交"/>
+    </form>
+  </body>
+</html>

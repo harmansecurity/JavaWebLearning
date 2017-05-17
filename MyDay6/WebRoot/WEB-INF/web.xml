@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" 
+	xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ResponseDemo1</servlet-name>
+    <servlet-class>com.ecnu.response.ResponseDemo1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ResponseDemo2</servlet-name>
+    <servlet-class>com.ecnu.response.ResponseDemo2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ResponseDemo3</servlet-name>
+    <servlet-class>com.ecnu.response.ResponseDemo3</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ResponseDemo4</servlet-name>
+    <servlet-class>com.ecnu.response.ResponseDemo4</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ResponseDemo5</servlet-name>
+    <servlet-class>com.ecnu.response.ResponseDemo5</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ResponseDemo6</servlet-name>
+    <servlet-class>com.ecnu.response.ResponseDemo6</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ResponseDemo7</servlet-name>
+    <servlet-class>com.ecnu.response.ResponseDemo7</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RequestDemo1</servlet-name>
+    <servlet-class>com.ecnu.request.RequestDemo1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RequestDemo2</servlet-name>
+    <servlet-class>com.ecnu.request.RequestDemo2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RequestDemo3</servlet-name>
+    <servlet-class>com.ecnu.request.RequestDemo3</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RequestDemo4</servlet-name>
+    <servlet-class>com.ecnu.request.RequestDemo4</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RequestDemo5</servlet-name>
+    <servlet-class>com.ecnu.request.RequestDemo5</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RequestDemo6</servlet-name>
+    <servlet-class>com.ecnu.request.RequestDemo6</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RequestDemo7</servlet-name>
+    <servlet-class>com.ecnu.request.RequestDemo7</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RequestDemo8</servlet-name>
+    <servlet-class>com.ecnu.request.RequestDemo8</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletDemo1</servlet-name>
+    <servlet-class>com.ecnu.url.ServletDemo1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RequestDemo9</servlet-name>
+    <servlet-class>com.ecnu.request.RequestDemo9</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>ResponseDemo1</servlet-name>
+    <url-pattern>/servlet/ResponseDemo1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResponseDemo2</servlet-name>
+    <url-pattern>/servlet/ResponseDemo2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResponseDemo3</servlet-name>
+    <url-pattern>/servlet/ResponseDemo3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResponseDemo4</servlet-name>
+    <url-pattern>/servlet/ResponseDemo4</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResponseDemo5</servlet-name>
+    <url-pattern>/servlet/ResponseDemo5</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResponseDemo6</servlet-name>
+    <url-pattern>/servlet/ResponseDemo6</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResponseDemo7</servlet-name>
+    <url-pattern>/servlet/ResponseDemo7</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RequestDemo1</servlet-name>
+    <url-pattern>/servlet/RequestDemo1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RequestDemo2</servlet-name>
+    <url-pattern>/servlet/RequestDemo2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RequestDemo3</servlet-name>
+    <url-pattern>/servlet/RequestDemo3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RequestDemo4</servlet-name>
+    <url-pattern>/servlet/RequestDemo4</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RequestDemo5</servlet-name>
+    <url-pattern>/servlet/RequestDemo5</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RequestDemo6</servlet-name>
+    <url-pattern>/servlet/RequestDemo6</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RequestDemo7</servlet-name>
+    <url-pattern>/servlet/RequestDemo7</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RequestDemo8</servlet-name>
+    <url-pattern>/servlet/RequestDemo8</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletDemo1</servlet-name>
+    <url-pattern>/servlet/ServletDemo1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RequestDemo9</servlet-name>
+    <url-pattern>/servlet/RequestDemo9</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

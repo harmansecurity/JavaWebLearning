@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>form.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+	<script type="text/javascript">
+		/*var iscommitted = false;
+		function dosubmit(){
+			if(!iscommitted){
+				iscommitted=true;
+				return true;
+			}else{
+				return false;
+			}
+		}*/
+		function dosubmit(){
+			var input = document.getElementById("submit");
+			input.disabled = 'disabled';
+			return true;
+		}
+	</script>
+  </head>
+  
+  <body>
+    <form action="/MyDay7/servlet/DoFormServlet" method="get" onsubmit="return dosubmit()">
+    	用户名：<input type="text" name="username"/><br/>
+    	<input id="submit" type="submit" value="提交"/>
+    </form>
+  </body>
+</html>
